@@ -102,6 +102,13 @@ Yii::app()->clientScript->registerScript('re-install-date-picker', "
                             'pagerCssClass' => 'widget-footer',
                             'columns' => array(
                                 array(
+                                    'name' => 'photo',
+                                    'type' => 'raw',
+                                    'header' => 'Photo',
+                                    'value' => 'AdminImage::preview("user/thumb", $data->photo, 80, "user")',
+                                    'filter' => false,
+                                ),
+                                array(
                                     'name' => 'full_name',
                                     'type' => 'raw',
                                     'value' => '$data->full_name',

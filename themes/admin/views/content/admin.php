@@ -83,6 +83,12 @@ Yii::app()->clientScript->registerScript('reload-pageSetUp', "
                                     'htmlOptions' => array('class' => ''),
                                 ),
                                 array(
+                                    'name' => 'image',
+                                    'type' => 'raw',
+                                    'value' => 'AdminImage::preview("content", $data->image)',
+                                    'filter' => false,
+                                ),
+                                array(
                                     'name' => 'featured',
                                     'value' => '$data->featured',
                                     'filter' => CHtml::activeDropDownList($model, 'featured', array('Yes' => 'Yes', 'No' => 'No'), array('empty' => 'All', 'class' => 'form-control')),

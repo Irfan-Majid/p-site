@@ -1,0 +1,166 @@
+IMAGES USED ON THE PUBLIC WEBSITE
+=================================
+
+Only pictures that the live site shows.
+Admin address: admin.php
+
+
+1. ADMIN CAN CHANGE THESE
+-------------------------
+Login, then use the menu. Uploading a new file there changes the site.
+Allowed types: jpg, jpeg, gif, png. Max size: 5 MB.
+
+HEADER LOGO (top of every page)
+  What: the wide logo bar
+  Admin: Banner Management -> Banner
+  Edit record id 20, title "Logo"
+  Link: admin.php?r=banner/update&id=20
+  Size: about 1260 x 115 px
+  Saved in: uploads/banner/
+  The page always loads banner 20. A new banner does not replace it.
+
+HOMEPAGE SLIDER PHOTOS
+  What: the sliding photos on the home page
+  Admin: Banner Management -> Banner
+  Category: Slider banner
+  Saved in: uploads/banner/
+
+UNITS PHOTOS
+  What: the units strip on the home page
+  Admin: Banner Management -> Banner
+  Category: Units
+  Saved in: uploads/banner/
+
+GALLERY PHOTOS
+  What: gallery list and gallery detail pages
+  Admin: Banner Management -> Banner
+  Saved in: uploads/banner/
+
+SUPERINTENDENT PHOTO
+  What: the SP photo on the home page (shown twice)
+  Admin: Content Management -> Content
+  Edit record id 2
+  Link: admin.php?r=content/update&id=2
+  Saved in: uploads/content/
+
+HISTORY PHOTO
+  What: the history section photo on the home page
+  Admin: Content Management -> Content
+  Edit record id 4
+  Saved in: uploads/content/
+
+RECENT ACTIVITY THUMBNAILS
+  What: the four photos under the recent-activities heading
+  Admin: Content Management -> Content
+  Any Active content in category 3. The site shows the newest 4.
+  Saved in: uploads/content/
+
+ARTICLE PHOTO
+  What: the photo on a content detail page
+  Admin: Content Management -> Content
+  Edit that article and change its image.
+  Saved in: uploads/content/
+
+
+2. STATIC — ADMIN CANNOT CHANGE THESE
+-------------------------------------
+These are written into the theme files. The admin panel has no screen for them.
+To change one, replace the file on the server and keep the same file name,
+or edit the PHP/CSS path.
+
+ROUND POLICE EMBLEM
+  Where: beside the superintendent text, and in the footer
+  File: themes/default/assets/images/police-logo-circular.png
+
+FAVICON (browser tab icon)
+  File path in the layout: storage/upload/file/Wkv4TMljJrfNWVQjlvQzYzhsSD3cDGyvOpPmcv6s.png
+  Code: themes/default/views/layouts/main.php
+
+SLIDER BACKDROP
+  The sliding photos come from admin. The background behind them does not.
+  File: uploads/banner/a.jpg
+  Code: themes/default/views/site/index.php
+
+SUPERINTENDENT SECTION BACKGROUND
+  File: storage/upload/file/QxMvrgszx7c9LaBv9WiiV3DcUQ1nAAw9oS1N0rp0.png
+  Code: themes/default/views/site/index.php
+
+MISSION SECTION BACKGROUND
+  File: storage/upload/file/background_304120853.jpg
+  Code: themes/default/views/site/index.php
+
+FLORAL DECORATION
+  Files:
+    themes/default/assets/images/floral-2-5-1.png
+    themes/default/assets/images/floral-3-5-1.png
+    themes/default/assets/images/floral-2-10.png
+  Code: themes/default/views/site/index.php
+
+HOME PAGE SERVICE ICONS
+  Code: themes/default/views/site/index.php
+  Files in themes/default/assets/images/:
+    clearence.png          Online police clearance
+    help_line.png          BD Police helpline
+    expert_call.png        Telephone and email
+    opinion.png            Opinion and complaint
+    nis_bdpolice.png       NIS Bangladesh Police
+    hotline.png            Emergency services
+    right_information.png  Right to information
+    beat_policeing.gif     Beat policing
+
+HOME PAGE NOTICE ICONS (the links that use theme images)
+  Code: themes/default/views/site/index.php
+  Files in themes/default/assets/images/:
+    press_realese.png      Press release
+    ricrutment.png         Recruitment
+    tender.png             Tender notice
+    legal.png              Legal instrument
+    innovative.jpeg        Innovative activities
+
+A second set of the same kind of links is hardcoded to storage/upload/announcement/.
+Those files are also static. The admin panel does not manage them.
+  Code: themes/default/views/site/index.php
+  Examples:
+    storage/upload/announcement/btLkgP7ZYixPpI1jfFlYG1qBMVp7qBp57Vh2ovrI.png
+    storage/upload/announcement/police-info_file844111724.png
+    storage/upload/announcement/police-info_file900111750.png
+    storage/upload/announcement/police-info_file416111811.png
+    storage/upload/announcement/DVN6JzYHKGuUSEf1Rg4WeVkMf9r5NKPCnZoVj6qF.jpg
+
+INTERPOL AND UN MARKS
+  Code: themes/default/views/site/index.php
+  Files:
+    themes/default/assets/images/interpole.png
+    themes/default/assets/images/un.png
+
+IMPORTANT LINK ICONS
+  Code: themes/default/views/site/index.php
+  Each link points at a fixed file under storage/upload/announcement/.
+  If that file is missing, the site shows:
+    themes/default/assets/images/icons/Government_Seal_of_Bangladesh.png
+
+APP SCREENSHOTS (side panel)
+  Code: themes/default/views/layouts/main.php
+  Files in themes/default/assets/images/:
+    qe5gO33zHbyl9kqYiImGmCBj4l1fDrxuUlAOzCEa.png
+    M6FOSbynF7Tp9oiHSxQFcJ4G4jQgYz6ZeszpybE9.png
+    Ia5nryV03wvHo7O6F6lZUeS0KYQ8joXpkL0DpdK4.png
+    kYlgZkiFTJOpU7HbptelsWTNzl0U6Xand61wCvD7.png
+
+SIDE BUTTON ICONS (every page)
+  Code: themes/default/views/layouts/main.php
+  Files in themes/default/assets/images/icons/:
+    facebook.jpg
+    youtube.jpg
+    twitter.jpg
+    services3_icon.png
+    infolist-1.png
+    mobile-app.png
+
+FOOTER BACKGROUND AND FOOTER SOCIAL ICONS
+  Code: themes/default/assets/css/styles.css
+  Files in themes/default/assets/images/:
+    bottom-bg-hight.jpg
+    fb-1.png
+    tweet-1.png
+    youtube-1.png

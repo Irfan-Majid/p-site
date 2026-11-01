@@ -86,9 +86,8 @@ Yii::app()->clientScript->registerScript('reload-pageSetUp', "
                                 ),
                                 array(
                                     'name' => 'banner',
-                                    'type' => 'html',
-                                    //'value' => '$data->banner==""?Yii::app()->baseUrl."/uploads/banner/default.png" : Yii::app()->baseUrl."/uploads/banner/$data->banner"',
-                                    'value' => 'CHtml::image(Yii::app()->baseUrl . "/uploads/banner/" . $data->banner,"", array("width"=>80))',
+                                    'type' => 'raw',
+                                    'value' => 'AdminImage::preview("banner", $data->banner)',
                                     'filter' => false,
                                     'htmlOptions' => array('class' => ''),
                                 ),

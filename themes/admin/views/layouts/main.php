@@ -320,5 +320,29 @@
         <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery.livequery.js"></script>   
         <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/plugin/ckeditor/ckeditor.js"></script>    
         <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/plugin/bootstrap-tags/bootstrap-tagsinput.min.js"></script>
+        <div id="admin-zoom-box">
+            <span class="admin-zoom-close">&times;</span>
+            <img alt="">
+        </div>
+        <script type="text/javascript">
+            $(document).on('click', 'a.admin-zoom', function (e) {
+                e.preventDefault();
+                $('#admin-zoom-box img').attr('src', $(this).attr('href'));
+                $('#admin-zoom-box').show();
+            });
+            $(document).on('click', '#admin-zoom-box img', function (e) {
+                e.stopPropagation();
+            });
+            $(document).on('click', '#admin-zoom-box, #admin-zoom-box .admin-zoom-close', function () {
+                $('#admin-zoom-box').hide();
+                $('#admin-zoom-box img').attr('src', '');
+            });
+            $(document).on('keyup', function (e) {
+                if (e.keyCode === 27) {
+                    $('#admin-zoom-box').hide();
+                    $('#admin-zoom-box img').attr('src', '');
+                }
+            });
+        </script>
     </body>
 </html>

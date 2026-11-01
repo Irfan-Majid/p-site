@@ -98,7 +98,7 @@ $sphoto="Jellyfish.jpg";
 ?>
 
 
-                        <br><br><img class="online" alt="<?php echo User::get_full_name($model->id); ?>" src="<?php echo Yii::app()->baseUrl; ?>/uploads/user/thumb/<?php print $sphoto; ?>" width="50">
+                        <br><br><?php echo AdminImage::preview('user/thumb', $sphoto, 80, 'user'); ?>
  <?php } ?>                       
                         
                         

@@ -85,8 +85,8 @@ Yii::app()->clientScript->registerScript('reload-pageSetUp', "
                                 ),
                                 array(
                                     'name' => 'document_file',
-                                    'type' => 'html',
-                                    'value' => '$data->document_file',
+                                    'type' => 'raw',
+                                    'value' => 'AdminImage::preview("document", $data->document_file)',
                                     'filter' => false,
                                     'htmlOptions' => array('class' => ''),
                                 ),

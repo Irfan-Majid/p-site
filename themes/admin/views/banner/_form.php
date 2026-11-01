@@ -73,6 +73,9 @@
                 <label for="file" class="input input-file" onchange="this.parentNode.nextSibling.value = this.value">
                     <div class="button"><?php echo $form->fileField($model, 'banner', array('class' => '', 'onchange' => 'this.parentNode.nextSibling.value = this.value')); ?>Browse</div><input type="text" placeholder="Browse file" readonly="">
                     <?php echo $form->error($model, 'banner'); ?>
+                    <?php if (!$model->isNewRecord && $model->banner): ?>
+                        <div class="admin-zoom-preview"><?php echo AdminImage::preview('banner', $model->banner, 220); ?></div>
+                    <?php endif; ?>
                 </label>
             </section>
         </div>

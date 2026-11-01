@@ -40,6 +40,9 @@
                 <label for="file" class="input input-file" onchange="this.parentNode.nextSibling.value = this.value">
                     <div class="button"><?php echo $form->fileField($model, 'image', array('class' => '', 'onchange' => 'this.parentNode.nextSibling.value = this.value')); ?>Browse</div><input type="text" placeholder="Browse file" readonly="">
                     <?php echo $form->error($model, 'image'); ?>
+                    <?php if (!$model->isNewRecord && $model->image): ?>
+                        <div class="admin-zoom-preview"><?php echo AdminImage::preview('content', $model->image, 220); ?></div>
+                    <?php endif; ?>
                 </label>
             </section>
         </div>
