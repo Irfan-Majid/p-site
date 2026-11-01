@@ -1,0 +1,11 @@
+2026/10/27 10:29:51 [error] [exception.ParseError] ParseError: syntax error, unexpected token "public" in /home/chattogramdev/public_html/protected/controllers/front/SiteController.php:92
+Stack trace:
+#0 /home/chattogramdev/public_html/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#1 /home/chattogramdev/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#2 /home/chattogramdev/public_html/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#3 /home/chattogramdev/public_html/protected/components/WebApplicationEndBehavior.php(24): CApplication->run()
+#4 /home/chattogramdev/public_html/framework/base/CComponent.php(260): WebApplicationEndBehavior->runEnd('front')
+#5 /home/chattogramdev/public_html/index.php(17): CComponent->__call('runEnd', Array)
+#6 {main}
+REQUEST_URI=/
+---

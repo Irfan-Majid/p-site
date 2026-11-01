@@ -1,0 +1,128 @@
+[24-Sep-2019 09:07:17 America/Chicago] PHP Warning:  POST Content-Length of 11037737 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[24-Sep-2019 09:09:33 America/Chicago] PHP Warning:  POST Content-Length of 11037749 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[24-Sep-2019 09:11:08 America/Chicago] PHP Warning:  POST Content-Length of 9744246 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[02-Oct-2019 19:26:38 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/kushtiapolicegov/public_html/protected/controllers/back/DocumentController.php on line 136
+[02-Oct-2019 19:27:02 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/kushtiapolicegov/public_html/protected/controllers/back/DocumentController.php on line 136
+[02-Oct-2019 19:27:11 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/kushtiapolicegov/public_html/protected/controllers/back/DocumentController.php on line 136
+[02-Oct-2019 19:28:45 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/kushtiapolicegov/public_html/protected/controllers/back/DocumentController.php on line 136
+[03-Oct-2019 01:56:08 America/Chicago] PHP Warning:  POST Content-Length of 10452509 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[03-Oct-2019 01:56:20 America/Chicago] PHP Warning:  POST Content-Length of 10452509 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[12-Oct-2019 20:04:47 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/kushtiapolicegov/public_html/protected/controllers/back/DocumentController.php on line 136
+[12-Oct-2019 20:05:08 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/kushtiapolicegov/public_html/protected/controllers/back/DocumentController.php on line 136
+[07-Dec-2019 21:38:31 America/Chicago] PHP Warning:  POST Content-Length of 9658266 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 21:38:38 America/Chicago] PHP Warning:  POST Content-Length of 9658266 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 21:39:39 America/Chicago] PHP Warning:  POST Content-Length of 9658266 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 21:40:23 America/Chicago] PHP Warning:  POST Content-Length of 9658242 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 21:42:00 America/Chicago] PHP Warning:  POST Content-Length of 9658266 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 22:06:33 America/Chicago] PHP Warning:  POST Content-Length of 9571652 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 22:07:18 America/Chicago] PHP Warning:  POST Content-Length of 8966367 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 22:15:17 America/Chicago] PHP Warning:  POST Content-Length of 9658266 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 22:15:54 America/Chicago] PHP Warning:  POST Content-Length of 9624605 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 22:16:00 America/Chicago] PHP Warning:  POST Content-Length of 9624605 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 22:16:56 America/Chicago] PHP Warning:  POST Content-Length of 10250026 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 22:23:43 America/Chicago] PHP Warning:  POST Content-Length of 9571593 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 22:23:54 America/Chicago] PHP Warning:  POST Content-Length of 9571577 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 22:23:55 America/Chicago] PHP Warning:  POST Content-Length of 9571577 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Dec-2019 22:36:54 America/Chicago] PHP Warning:  POST Content-Length of 9658266 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[08-Dec-2019 21:47:21 America/Chicago] PHP Warning:  POST Content-Length of 10250121 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[15-Dec-2019 01:12:32 America/Chicago] PHP Warning:  POST Content-Length of 10249951 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[18-Dec-2019 23:59:22 America/Chicago] PHP Warning:  POST Content-Length of 15595721 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[19-Dec-2019 00:00:21 America/Chicago] PHP Warning:  POST Content-Length of 15595721 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[22-Dec-2019 10:50:55 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 10:51:09 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 10:51:13 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 10:51:48 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 10:52:19 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 10:52:26 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 10:52:59 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 11:46:34 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 11:46:46 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 11:48:36 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 13:06:15 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 13:06:26 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 13:06:30 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 13:16:30 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 13:17:02 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 13:17:13 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 13:17:17 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[22-Dec-2019 13:17:30 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[23-Dec-2019 03:25:13 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:39:23 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:39:50 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:40:11 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:40:28 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:40:54 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:41:16 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:41:19 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:44:36 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:45:38 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:46:25 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:46:39 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:46:56 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:48:01 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:48:16 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:48:57 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:49:13 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:54:52 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:55:52 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:56:09 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:57:05 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 09:59:34 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:00:13 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:00:26 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:01:00 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:04:29 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:05:15 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:12:34 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:16:59 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:16:59 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:17:21 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:21:30 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 10:24:17 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 11:47:43 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 11:47:57 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 11:48:07 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 11:48:50 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 11:49:19 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 11:50:43 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 12:28:15 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 12:30:57 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 12:33:57 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 12:34:28 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:08:57 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:09:36 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:36:27 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:36:41 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:36:49 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:37:00 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:40:56 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:43:42 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:44:19 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:44:38 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:54:29 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:57:41 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 13:57:53 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 14:01:20 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 14:03:33 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 14:38:24 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 14:41:35 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 14:43:42 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 14:46:32 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 14:49:19 Asia/Dhaka] PHP Fatal error:  Call to undefined method Content::length() in /home/jhenaidahpoliceg/public_html/protected/models/Content.php on line 220
+[23-Dec-2019 04:17:24 America/Chicago] PHP Warning:  POST Content-Length of 9658091 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[31-Dec-2019 22:51:48 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[31-Dec-2019 22:52:03 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[31-Dec-2019 22:52:16 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[31-Dec-2019 22:54:38 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[31-Dec-2019 22:54:50 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[31-Dec-2019 22:58:37 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[08-Jan-2020 11:10:36 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[08-Jan-2020 11:11:07 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[08-Jan-2020 11:11:14 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[08-Jan-2020 11:11:47 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[08-Jan-2020 11:11:57 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[15-Jan-2020 03:15:08 America/Chicago] PHP Warning:  POST Content-Length of 119396032 bytes exceeds the limit of 110100480 bytes in Unknown on line 0
+[21-Jan-2020 11:52:40 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[21-Jan-2020 11:52:59 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[21-Jan-2020 12:47:49 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
+[21-Jan-2020 12:48:05 Asia/Dhaka] PHP Fatal error:  Call to a member function getType() on string in /home/jhenaidahpoliceg/public_html/protected/controllers/back/DocumentController.php on line 136
