@@ -3,9 +3,9 @@
  * CHttpCacheFilter class file.
  *
  * @author Da:Sourcerer <webmaster@dasourcerer.net>
- * @link http://www.yiiframework.com/
- * @copyright Copyright &copy; 2008-2012 Yii Software LLC
- * @license http://www.yiiframework.com/license/
+ * @link https://www.yiiframework.com/
+ * @copyright 2008-2013 Yii Software LLC
+ * @license https://www.yiiframework.com/license/
  */
 
 /**
@@ -19,32 +19,41 @@
 class CHttpCacheFilter extends CFilter
 {
 	/**
-	 * Timestamp for the last modification date. Must be either a string parsable by
-	 * {@link http://php.net/strtotime strtotime()} or an integer representing a unix timestamp.
-	 * @var string|integer
+	 * @var string|integer Timestamp for the last modification date.
+	 * Must be either a string parsable by {@link https://php.net/strtotime strtotime()}
+	 * or an integer representing a unix timestamp.
 	 */
 	public $lastModified;
 	/**
-	 * Expression for the last modification date. If set, this takes precedence over {@link lastModified}.
-	 * @var string|callback
+	 * @var string|callback PHP Expression for the last modification date.
+	 * If set, this takes precedence over {@link lastModified}.
+	 *
+	 * The PHP expression will be evaluated using {@link evaluateExpression}.
+	 *
+	 * A PHP expression can be any PHP code that has a value. To learn more about what an expression is,
+	 * please refer to the {@link https://www.php.net/manual/en/language.expressions.php php manual}.
 	 */
 	public $lastModifiedExpression;
 	/**
-	 * Seed for the ETag. Can be anything that passes through {@link http://php.net/serialize serialize()}.
-	 * @var mixed
+	 * @var mixed Seed for the ETag.
+	 * Can be anything that passes through {@link https://php.net/serialize serialize()}.
 	 */
 	public $etagSeed;
 	/**
-	 * Expression for the ETag seed. If set, this takes precedence over {@link etagSeed}.
-	 * @var string|callback
+	 * @var string|callback Expression for the ETag seed.
+	 * If set, this takes precedence over {@link etagSeed}.
+	 *
+	 * The PHP expression will be evaluated using {@link evaluateExpression}.
+	 *
+	 * A PHP expression can be any PHP code that has a value. To learn more about what an expression is,
+	 * please refer to the {@link https://www.php.net/manual/en/language.expressions.php php manual}.
 	 */
 	public $etagSeedExpression;
 	/**
-	 * Http cache control headers. Set this to an empty string in order to keep this
+	 * @var string Http cache control headers. Set this to an empty string in order to keep this
 	 * header from being sent entirely.
-	 * @var string
 	 */
-	public $cacheControl = 'max-age=3600, public';
+	public $cacheControl='max-age=3600, public';
 
 	/**
 	 * Performs the pre-action filtering.
@@ -66,39 +75,39 @@ class CHttpCacheFilter extends CFilter
 		if($etag)
 			header('ETag: '.$etag);
 
+		$this->sendCacheControlHeader();
+
+		$cacheValid = false;
 		if(isset($_SERVER['HTTP_IF_MODIFIED_SINCE'])&&isset($_SERVER['HTTP_IF_NONE_MATCH']))
 		{
 			if($this->checkLastModified($lastModified)&&$this->checkEtag($etag))
 			{
-				$this->send304Header();
-				$this->sendCacheControlHeader();
-				return false;
+				$cacheValid=true;
 			}
 		}
 		elseif(isset($_SERVER['HTTP_IF_MODIFIED_SINCE']))
 		{
 			if($this->checkLastModified($lastModified))
 			{
-				$this->send304Header();
-				$this->sendCacheControlHeader();
-				return false;
+				$cacheValid=true;
 			}
 		}
 		elseif(isset($_SERVER['HTTP_IF_NONE_MATCH']))
 		{
 			if($this->checkEtag($etag))
 			{
-				$this->send304Header();
-				$this->sendCacheControlHeader();
-				return false;
+				$cacheValid=true;
 			}
-
 		}
 
 		if($lastModified)
 			header('Last-Modified: '.gmdate('D, d M Y H:i:s', $lastModified).' GMT');
 
-		$this->sendCacheControlHeader();
+		if ($cacheValid) {
+			$this->send304Header();
+			return false;
+		}
+
 		return true;
 	}
 
@@ -171,7 +180,8 @@ class CHttpCacheFilter extends CFilter
 	 */
 	protected function send304Header()
 	{
-		header('HTTP/1.1 304 Not Modified');
+		$httpVersion=Yii::app()->request->getHttpVersion();
+		header("HTTP/$httpVersion 304 Not Modified");
 	}
 
 	/**
@@ -183,7 +193,7 @@ class CHttpCacheFilter extends CFilter
 	{
 		if(Yii::app()->session->isStarted)
 		{
-			session_cache_limiter('public');
+			Yii::app()->session->setCacheLimiter('public');
 			header('Pragma:',true);
 		}
 		header('Cache-Control: '.$this->cacheControl,true);
@@ -192,9 +202,10 @@ class CHttpCacheFilter extends CFilter
 	/**
 	 * Generates a quoted string out of the seed
 	 * @param mixed $seed Seed for the ETag
+	 * @return string Quoted string serving as ETag
 	 */
 	protected function generateEtag($seed)
 	{
-		return '"'.base64_encode(sha1(serialize($seed), true)).'"';
+		return '"'.base64_encode(sha1(serialize($seed),true)).'"';
 	}
 }

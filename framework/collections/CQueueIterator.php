@@ -3,13 +3,13 @@
  * CQueueIterator class file.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
- * @link http://www.yiiframework.com/
- * @copyright Copyright &copy; 2008-2011 Yii Software LLC
- * @license http://www.yiiframework.com/license/
+ * @link https://www.yiiframework.com/
+ * @copyright 2008-2013 Yii Software LLC
+ * @license https://www.yiiframework.com/license/
  */
 
 /**
- * CQueueIterator implements an interator for {@link CQueue}.
+ * CQueueIterator implements an iterator for {@link CQueue}.
  *
  * It allows CQueue to return a new iterator for traversing the items in the queue.
  *
@@ -47,6 +47,7 @@ class CQueueIterator implements Iterator
 	 * Rewinds internal array pointer.
 	 * This method is required by the interface Iterator.
 	 */
+	#[ReturnTypeWillChange]
 	public function rewind()
 	{
 		$this->_i=0;
@@ -57,6 +58,7 @@ class CQueueIterator implements Iterator
 	 * This method is required by the interface Iterator.
 	 * @return integer the key of the current array item
 	 */
+	#[ReturnTypeWillChange]
 	public function key()
 	{
 		return $this->_i;
@@ -67,6 +69,7 @@ class CQueueIterator implements Iterator
 	 * This method is required by the interface Iterator.
 	 * @return mixed the current array item
 	 */
+	#[ReturnTypeWillChange]
 	public function current()
 	{
 		return $this->_d[$this->_i];
@@ -76,6 +79,7 @@ class CQueueIterator implements Iterator
 	 * Moves the internal pointer to the next array item.
 	 * This method is required by the interface Iterator.
 	 */
+	#[ReturnTypeWillChange]
 	public function next()
 	{
 		$this->_i++;
@@ -86,6 +90,7 @@ class CQueueIterator implements Iterator
 	 * This method is required by the interface Iterator.
 	 * @return boolean
 	 */
+	#[ReturnTypeWillChange]
 	public function valid()
 	{
 		return $this->_i<$this->_c;

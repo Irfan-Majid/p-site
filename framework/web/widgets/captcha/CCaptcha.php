@@ -3,15 +3,15 @@
  * CCaptcha class file.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
- * @link http://www.yiiframework.com/
- * @copyright Copyright &copy; 2008-2011 Yii Software LLC
- * @license http://www.yiiframework.com/license/
+ * @link https://www.yiiframework.com/
+ * @copyright 2008-2013 Yii Software LLC
+ * @license https://www.yiiframework.com/license/
  */
 
 /**
  * CCaptcha renders a CAPTCHA image element.
  *
- * CCaptcha is used together with {@link CCaptchaAction} to provide {@link http://en.wikipedia.org/wiki/Captcha CAPTCHA}
+ * CCaptcha is used together with {@link CCaptchaAction} to provide {@link https://en.wikipedia.org/wiki/Captcha CAPTCHA}
  * - a way of preventing site spam.
  *
  * The image element rendered by CCaptcha will display a CAPTCHA image generated
@@ -26,6 +26,9 @@
  *
  * A {@link CCaptchaValidator} may be used to validate that the user enters
  * a verification code matching the code displayed in the CAPTCHA image.
+ *
+ * When combining CCaptcha with CActiveForm or CForm, make sure ajaxValidation is disabled. Performing ajax validation causes
+ * your Captcha to be refreshed, rendering the code invalid on the next validation attempt.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @package system.web.widgets.captcha
@@ -154,7 +157,7 @@ jQuery(document).on('click', '$selector', function(){
 
 	/**
 	 * Checks if specified graphic extension support is loaded.
-	 * @param string extension name to be checked. Possible values are 'gd', 'imagick' and null.
+	 * @param string $extension name to be checked. Possible values are 'gd', 'imagick' and null.
 	 * Default value is null meaning that both extensions will be checked. This parameter
 	 * is available since 1.1.13.
 	 * @return boolean true if ImageMagick extension with PNG support or GD with FreeType support is loaded,
@@ -165,8 +168,7 @@ jQuery(document).on('click', '$selector', function(){
 	{
 		if(extension_loaded('imagick'))
 		{
-			$imagick=new Imagick();
-			$imagickFormats=$imagick->queryFormats('PNG');
+			$imagickFormats=Imagick::queryFormats('PNG');
 		}
 		if(extension_loaded('gd'))
 		{

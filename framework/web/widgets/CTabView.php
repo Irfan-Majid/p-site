@@ -3,9 +3,9 @@
  * CTabView class file.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
- * @link http://www.yiiframework.com/
- * @copyright Copyright &copy; 2008-2011 Yii Software LLC
- * @license http://www.yiiframework.com/license/
+ * @link https://www.yiiframework.com/
+ * @copyright 2008-2013 Yii Software LLC
+ * @license https://www.yiiframework.com/license/
  */
 
 /**
@@ -43,10 +43,10 @@
  *         ),
  *         'tab2'=>array(
  *             'title'=>'tab 2 title',
- *             'url'=>'http://www.yiiframework.com/',
+ *             'url'=>'https://www.yiiframework.com/',
  *         ),
  *     ),
- * ))?>
+ * ));
  * </pre>
  *
  * By default, the first tab will be activated. To activate a different tab
@@ -109,7 +109,7 @@ class CTabView extends CWidget
 	 *     ),
 	 *     'tab2'=>array(
 	 *           'title'=>'tab 2 title',
-	 *           'url'=>'http://www.yiiframework.com/',
+	 *           'url'=>'https://www.yiiframework.com/',
 	 *     ),
 	 * )
 	 * </pre>
@@ -131,11 +131,14 @@ class CTabView extends CWidget
 		if($this->activeTab===null || !isset($this->tabs[$this->activeTab]))
 		{
 			reset($this->tabs);
-			list($this->activeTab, )=each($this->tabs);
+			$this->activeTab = key($this->tabs);
 		}
 
 		$htmlOptions=$this->htmlOptions;
-		$htmlOptions['id']=$this->getId();
+		if(isset($this->htmlOptions['id']))
+			$this->id=$this->htmlOptions['id'];
+		else
+			$htmlOptions['id']=$this->id;
 		if(!isset($htmlOptions['class']))
 			$htmlOptions['class']=self::CSS_CLASS;
 
